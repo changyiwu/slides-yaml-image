@@ -26,7 +26,7 @@
 ## 資料夾結構
 
 ```
-yaml-image-deck/
+slides-yaml-image/
 ├── AGENTS.md                          專案藍圖（本檔，跨 Agent）
 ├── handoff.md                         交接檔（開工必讀、收工必更新）
 ├── CLAUDE.md                          橋接檔（@AGENTS.md，供 Claude Code 讀取）
@@ -56,8 +56,8 @@ yaml-image-deck/
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md`＋`CLAUDE.md`（橋接） | 每個 session |
-| L2 | GitHub | https://github.com/changyiwu/yaml-image-deck （公開） | 指定時 |
-| L3 | Obsidian | `yaml-image-deck/專案工作流程.md` | 有需要時 |
+| L2 | GitHub | https://github.com/changyiwu/slides-yaml-image （公開） | 指定時 |
+| L3 | Obsidian | `slides-yaml-image/專案工作流程.md` | 有需要時 |
 
 ## 三個檔案的職責（依「時效性」分家，不是依「詳細程度」）
 

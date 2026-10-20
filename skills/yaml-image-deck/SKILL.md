@@ -1,5 +1,5 @@
 ---
-name: yaml-image-deck
+name: yaml-image
 description: 用一份 YAML 設計系統＋版型庫＋逐頁內容，生成風格一致的整頁圖片式簡報。當使用者要求「YAML 圖片簡報」、「NotebookLM 風格簡報」、「整頁都是圖的簡報」、「固定視覺語法的簡報」、「用黃金樣張鎖風格」、「批次生圖做投影片」時使用。支援 baked 全圖片與 plate 無字底圖＋可編輯文字兩種模式，主題不限學科。
 ---
 
