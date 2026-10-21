@@ -5,7 +5,7 @@ import sys
 import yaml
 
 root = Path(__file__).resolve().parents[1]
-skill = root / "skills" / "yaml-image-deck"
+skill = root / "skills" / "yaml-image"
 
 text = (skill / "SKILL.md").read_text(encoding="utf-8")
 if not text.startswith("---\n") or "name: yaml-image" not in text:

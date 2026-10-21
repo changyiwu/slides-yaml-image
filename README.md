@@ -21,7 +21,7 @@
 
 ## 安裝
 
-把 `skills/yaml-image-deck/` 整個資料夾複製到你的 Agent 讀取技能的目錄下即可，例如：
+把 `skills/yaml-image/` 整個資料夾複製到你的 Agent 讀取技能的目錄下即可，例如：
 
 | Agent | 技能目錄 |
 |---|---|
@@ -39,7 +39,7 @@
 ## 驗證
 
 ```powershell
-python ./skills/yaml-image-deck/scripts/validate_spec.py --spec ./skills/yaml-image-deck/assets/spec-template.yaml
+python ./skills/yaml-image/scripts/validate_spec.py --spec ./skills/yaml-image/assets/spec-template.yaml
 ```
 
 ## 出處與授權

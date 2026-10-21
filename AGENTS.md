@@ -35,7 +35,7 @@ slides-yaml-image/
 ├── .gitignore
 ├── .github/workflows/validate.yml     CI：安裝 PyYAML+Pillow → 跑 tools/validate_repo.py
 ├── tools/validate_repo.py             檢查 SKILL.md frontmatter、interface.yaml、範本規格
-└── skills/yaml-image-deck/            ← 技能本體（要安裝的就是這層）
+└── skills/yaml-image/            ← 技能本體（要安裝的就是這層）
     ├── SKILL.md                       主指令：設定軸、硬性規則、字體政策、11 步流程
     ├── agents/interface.yaml          通用介面設定（顯示名稱、預設 prompt）
     ├── assets/spec-template.yaml      3 頁範例規格，複製後改
@@ -91,4 +91,4 @@ slides-yaml-image/
 
 ## Claude Code 專屬
 
-- 本專案要生圖時，使用 `claude-draw` 技能（gpt-image-2）。但**不可把這個綁定寫進 `skills/yaml-image-deck/` 裡的任何檔案**——技能本體必須保持不綁定 Agent。
+- 本專案要生圖時，使用 `claude-draw` 技能（gpt-image-2）。但**不可把這個綁定寫進 `skills/yaml-image/` 裡的任何檔案**——技能本體必須保持不綁定 Agent。
